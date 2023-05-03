@@ -31,6 +31,24 @@ main{
 	margin: 0 auto;
 }
 
+.flex{
+	display: flex;
+}
+
+.blue-button{
+	background-color: #0160ff;
+	color: white;
+	padding: 10px 20px;
+	
+}
+
+.white-button{
+	background-color: #fff;
+	color: black;
+	padding: 10px 20px;
+	border: 1px solid black;
+	
+}
 /* Header */
 .main-header{
 	height: 80px;
@@ -59,12 +77,6 @@ main{
 	gap: 20px;
 }
 
-.blue-button{
-	background-color: #0160ff;
-	color: white;
-	padding: 10px 20px;
-	
-}
 
 
 /* Jumbotron */
@@ -190,6 +202,49 @@ h2{
 .plan-team{
     border: 1px solid #d0d0d3;
     width: 100%;
-    height: 300px;
+    min-height: 250px;
     margin-top: 20px;
+	position: relative;
+}
+
+.plan-team .blue-button{
+	position: absolute;
+	top: 70px;
+	right: 20px;
+}
+
+.plan-team .subtitle-card{
+	width: 60%;
+}
+
+/* PARTNERS */
+
+.partners{
+	margin-top: 100px;
+}
+
+.partners-layout{
+	display: flex;
+}
+
+.partners-layout > figure{
+	flex-basis: 60%;
+}
+
+.partners-layout div{
+	flex-basis: 40%;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+.partners-layout figure img{
+	width: 100%;
+}
+.partners-layout div h4{
+ font-size: 1.5rem;
+ margin-bottom: 20px;
+}
+
+.partners-layout div p{
+	margin-bottom: 50px;
 }
