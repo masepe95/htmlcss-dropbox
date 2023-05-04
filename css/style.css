@@ -12,11 +12,6 @@ ul{
     list-style: none;
 }
 
-a{
-	text-decoration: none;
-	color: black;
-	font-weight: 500;
-}
 
 main{
 	margin-top: 80px;
@@ -39,6 +34,7 @@ main{
 	background-color: #0160ff;
 	color: white;
 	padding: 10px 20px;
+	text-decoration: none;
 	
 }
 
@@ -65,11 +61,11 @@ main{
 	background-color: #fff;
 }
 .main-header ul > li{
-    display: inline-block;
+	display: inline-block;
     margin-right: 15px;
 }
 .left-nav, .right-nav{
-    display: flex;
+	display: flex;
     align-items: center;
 }
 
@@ -77,11 +73,16 @@ main{
 	gap: 20px;
 }
 
+.main-header li a{
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+}
 
 
 /* Jumbotron */
 .jumbotron{
-    background-color: #b4d0e6;
+	background-color: #b4d0e6;
 	height: 650px;
 }
 
@@ -247,4 +248,32 @@ h2{
 
 .partners-layout div p{
 	margin-bottom: 50px;
+}
+
+/* Operations */
+.dropbox-business{
+    margin-top: 100px;
+}
+.dropbox-business > h1{
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.dropbox-business h4{
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+.dropbox-business-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+.block{
+    width: calc(100% / 3 - 10px);
+}
+
+.dropbox-business img{
+	width: 100%;
 }
