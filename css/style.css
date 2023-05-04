@@ -43,6 +43,7 @@ main{
 	color: black;
 	padding: 10px 20px;
 	border: 1px solid black;
+	cursor: pointer;
 	
 }
 /* Header */
@@ -276,4 +277,81 @@ h2{
 
 .dropbox-business img{
 	width: 100%;
+}
+
+/* STATS */
+.stats > h4{
+    font-size: 2.5rem;
+    margin: 150px 0px 50px 0px;
+    font-weight: bold;
+}
+.stats > a{
+    margin-bottom: 100px;
+}
+
+/* LOGO GRID */
+.row{
+    display: flex;
+}
+.col-1-3{
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.square-logo{
+    width: 50%;
+    height: calc(100vw / 3 / 2);
+    position: relative;
+}
+.col-1-3.square-col{
+    position: relative;
+    background-color: #f5f5f5;
+}
+.square-logo img,
+.square-col-img{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.square-logo img{
+	filter: invert();
+}
+.logo-grid{
+    margin-top: 200px;
+}
+.square-col{
+    overflow: auto;
+    height: calc(100vw / 3);
+}
+
+
+/* UTILITY */
+/* Color BG */
+.green-bg{
+	background-color: #a2d39b;
+	border: 20px solid #d1e9cd;
+}
+.violet-bg{
+	background-color: #61082b;
+}
+.orange-bg{
+	background-color: #ff1c1c;
+}
+.lightblue-bg{
+	background-color: #0093ce;
+}
+.red-bg{
+	background-color: #d5001f;
+}
+.blue-bg{
+	background-color: #0d2481;
+}
+.light-bg{
+	background-color: #b4d0e7;
+}
+.yellow-bg{
+	background-color: #ffd830;
 }
