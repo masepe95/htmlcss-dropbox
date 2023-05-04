@@ -35,6 +35,7 @@ main{
 	color: white;
 	padding: 10px 20px;
 	text-decoration: none;
+	cursor: pointer;
 	
 }
 
@@ -44,6 +45,7 @@ main{
 	padding: 10px 20px;
 	border: 1px solid black;
 	cursor: pointer;
+	text-decoration: none;
 	
 }
 /* Header */
@@ -286,7 +288,7 @@ h2{
     font-weight: bold;
 }
 .stats > a{
-    margin-bottom: 100px;
+    margin-bottom: 0px;
 }
 
 /* LOGO GRID */
@@ -320,7 +322,7 @@ h2{
 	filter: invert();
 }
 .logo-grid{
-    margin-top: 200px;
+    margin-top: 80px;
 }
 .square-col{
     overflow: auto;
@@ -354,4 +356,24 @@ h2{
 }
 .yellow-bg{
 	background-color: #ffd830;
+}
+
+/* FREE TRIAL */
+
+.free-trial{
+	min-height: 300px;
+	display: flex;
+	gap: 200px;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.trial-right{
+	padding-bottom: 70px;
+	
+}
+
+.trial-left h2{
+	color:#641b41;
 }
