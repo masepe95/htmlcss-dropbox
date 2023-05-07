@@ -81,12 +81,12 @@ main{
 	text-decoration: none;
 	color: black;
 	font-weight: 500;
-	padding-bottom: 28px;
-	padding-top: 28px;
+	padding-bottom: 25px;
+	padding-top: 25px;
 }
 
 .main-header li a:hover{
-	border-bottom: 4px solid gray;
+	border-bottom: 4px solid #0160ff;
 	color: black;
 	
 	text-decoration: none;
@@ -417,7 +417,7 @@ z-index: 0;
 .question{
 	display: flex;
 	justify-content: space-between;
-	border-bottom: 1px solid black;
+	
 	padding: 30px 0px 30px 0px;
 }
 
@@ -428,6 +428,16 @@ z-index: 0;
 .FAQ i{
 	margin-right: 30px;
 	cursor: pointer;
+}
+
+.faq-answer p{
+	font-weight: 600;
+	padding-bottom: 30px;
+	display: none;
+}
+
+.question:hover + .faq-answer p{
+	display: block;
 }
 
 /* FOOTER */
